@@ -20,7 +20,7 @@ pipeline {
 
      stage('Tag Docker Image'){
        steps{
-         sh " docker tag my-nginx:V${IMAGE_TAG} 315354952551.dkr.ecr.eu-north-1.amazonaws.com/darshan/dokerimages:V${IMAGE_TAG}
+         sh " docker tag my-nginx:V${IMAGE_TAG} 315354952551.dkr.ecr.eu-north-1.amazonaws.com/darshan/dokerimages:V${IMAGE_TAG}"
        }
      }
 
